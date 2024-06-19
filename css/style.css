@@ -400,3 +400,55 @@ p {
     font-family: "raleway-regular",sans-serif;
     text-align: center;
     width: 50%; }
+
+.bg__container {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/img/Preguntas-Frecuentes.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 6.25rem; }
+
+.wrapper__bg {
+  background-color: rgba(20, 20, 20, 0.644);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  padding-right: 6.125rem; }
+
+.container__questions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+
+.mi-color-title {
+  color: #fffafa;
+  font-family: "sans-bold",sans-serif;
+  font-size: 20px; }
+
+.mi-color-parrafos {
+  color: #b9b9b9;
+  font-family: "raleway-bold",sans-serif;
+  border-left: 2px solid #ff4500;
+  padding-left: .625rem;
+  font-size: 1rem; }
+
+.second__title {
+  text-align: center; }
+
+.second__subtitle {
+  color: #b9b9b9;
+  font-family: "raleway-bold",sans-serif;
+  text-align: center; }
+
+.bg__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ff4500; }
+
+.bg__input::placeholder {
+  color: #cecdcd; }
+
+.bg__select {
+  background-color: transparent;
+  color: #fffafa; }
+
+.bg__option {
+  background-color: #242424; }
