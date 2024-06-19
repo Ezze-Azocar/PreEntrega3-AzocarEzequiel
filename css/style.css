@@ -272,3 +272,23 @@ p {
       color: #fffafa;
       font-family: "sans-bold";
       font-size: .8125rem; }
+
+.footer {
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem; }
+  .footer__title {
+    color: #fffafa;
+    font-size: 2rem;
+    font-family: "sans-medium",sans-serif; }
+  .footer__subtitle {
+    color: #fffafa;
+    text-align: center;
+    font-family: "sans-regular",sans-serif; }
+  .footer .footer__containerIcons {
+    display: flex;
+    gap: .625rem; }

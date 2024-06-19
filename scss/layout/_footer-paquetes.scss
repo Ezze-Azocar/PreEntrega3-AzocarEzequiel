@@ -1,0 +1,18 @@
+.footer{
+    background-color: $color-bg;
+    @include flex(column,none,center,center,1.875rem);
+    &__title{
+        color: $color-text;
+        font-size: 2rem;
+        font-family: "sans-medium",sans-serif;
+    }
+    &__subtitle{
+        color: $color-text;
+        text-align: center;
+        font-family: "sans-regular",sans-serif;
+    }
+    .footer__containerIcons{
+        display: flex;
+        gap: .625rem;
+    }
+}
