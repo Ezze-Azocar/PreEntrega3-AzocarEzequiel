@@ -1,0 +1,40 @@
+@media (max-width:425px) {
+    /* index */
+    .mainIndex__title{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+    .mainIndex__subtitle{
+        font-size: .875rem;
+    }
+    .mainIndex__description{
+        font-size: .625rem;
+        line-height: 1.25rem;
+    }
+    /* *pages paquetes footer*/
+    .footer__title{
+        font-size: 1.5rem;
+    }
+    .footer__subtitle{
+        font-size: .875rem;
+    }
+     /* *pages paquetes */
+    .circuitos__contentText{
+        width: 100%;
+    }
+    .circuitos__grid{
+        width: 100%;
+    }
+    .grid-item4{
+        height: auto;
+    }
+    .item__subgrid{
+        margin-top: .625rem;
+    }
+    .article__title{
+        font-size: .8125rem;
+    }
+    .article__description{
+        font-size: .575rem;
+    }
+}

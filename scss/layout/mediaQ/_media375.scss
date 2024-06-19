@@ -1,0 +1,37 @@
+@media (max-width:375px) {
+    /* index */
+    .mainIndex__title{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .mainIndex__subtitle{
+        font-size: .675rem;
+    }
+    .mainIndex__description{
+        font-size: .625rem;
+        line-height: 1.25rem;
+    }
+    .mainIndex__link{
+        font-size: .675rem;
+    }
+    /* pages paquetes */
+    .experience__text{
+        font-size: 2rem;
+        padding: .875rem;
+    }
+    .experience__link{
+        font-size: .6875rem;
+        padding: .3125rem 1.875rem;
+        margin-bottom: .125rem;
+    }
+    /* *pages paquetes footer*/
+    .footer__title{
+        font-size: 1rem;
+    }
+        .footer__subtitle{
+        font-size: .575rem;
+    }
+    .footer__containerIcons a img{
+        width: 1rem;
+    }
+}

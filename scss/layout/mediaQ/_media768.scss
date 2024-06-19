@@ -1,0 +1,58 @@
+@media (max-width:768px) {
+    /* index */
+    .header{
+        flex-direction: column;
+        padding-top: 0;
+        margin: 0;
+    }
+    .header__navbar{
+        gap: .625rem;
+        flex-direction: column;
+    }
+    .navbar__link{
+        font-size: .775rem;
+    }
+    .mainIndex__title{
+        margin-top: 5rem;
+        font-size: 3rem;
+    }
+    .mainIndex__subtitle{
+        font-size: .875rem;
+    }
+    .mainIndex__description{
+        font-size: .75rem;
+    }
+    .mainIndex__description, .container__mainIndexLink{
+        width: 90%;
+    }
+    .mainIndex__link{
+        font-size: .875rem;
+    }
+    /* *pages paquetes */
+    .experience__text{
+        font-size: 3rem;
+    }
+    .experience__link{
+        font-size: .8125rem;
+    }
+    .card{
+        display: none;
+    }
+    /* *pages paquetes */
+    .item4__title{
+        font-size: .875rem;
+    }
+    .item__parrafos{
+        font-size: .5625rem;
+    }
+    .subgrid__link{
+        font-size: .625rem;
+    }
+    .article__title{
+        font-size: 1.3rem;
+    }
+    .article__description{
+        font-size: .875rem;
+    }
+
+}

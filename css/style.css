@@ -497,3 +497,180 @@ p {
   height: 50vh;
   border-left: 2px solid #ff4500;
   padding-left: .625rem; }
+
+@media (max-width: 1440px) {
+  /* index */
+  .navbar__link {
+    font-size: .875rem; }
+  .mainIndex__title {
+    font-size: 6.5rem; }
+  /* *pages paquetes */
+  .experience__text {
+    font-size: 5rem; }
+  .card__title {
+    font-size: 2.1rem; }
+  .card__subtitle {
+    font-size: .875rem; }
+  .card__description {
+    font-size: .8125rem; }
+  .card__containerIcons {
+    column-gap: .3125rem; }
+  .card__available {
+    font-size: .8125rem; }
+  /* *pages circuitos */
+  .item4__title {
+    font-size: 1.125rem; }
+  .item__subgrid {
+    margin-top: .625rem; }
+  .list__item {
+    margin-left: 2.125rem; } }
+
+@media (max-width: 1400px) {
+  .form__container {
+    width: 100%; } }
+
+@media (max-width: 1024px) {
+  /* index */
+  .header__navbar {
+    gap: 1rem; }
+  .mainIndex__title {
+    font-size: 6rem; }
+  .mainIndex__description, .container__mainIndexLink {
+    width: 90%; }
+  /* *pages paquetes */
+  .experience__text {
+    font-size: 4rem; }
+  .card__textPromo {
+    font-size: 3rem; }
+  .card__title {
+    font-size: 1.3rem; }
+  .card__subtitle {
+    font-size: .875rem; }
+  .card__description {
+    font-size: .6875rem;
+    width: 100%; }
+  .card__containeritems {
+    margin-top: 1.25rem; }
+  .card__containerIcons {
+    column-gap: .3125rem; }
+  .card__icons {
+    width: 1.125rem; }
+  .card__availability {
+    column-gap: .125rem; }
+  .card__available {
+    font-size: .7125rem; }
+  .card__priceText {
+    font-size: .6875rem; }
+  .card__price {
+    font-size: .6875rem; }
+  /* *pages circuitos */
+  .circuitos__title {
+    font-size: 1.7rem; }
+  .circuitos__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "item1" "item2" "item3" "item4"; }
+  .grid-item1 {
+    width: 100%; }
+  .list__item {
+    margin-left: 1rem; }
+  .item__parrafos {
+    font-size: .5625rem; } }
+
+@media (max-width: 768px) {
+  /* index */
+  .header {
+    flex-direction: column;
+    padding-top: 0;
+    margin: 0; }
+  .header__navbar {
+    gap: .625rem;
+    flex-direction: column; }
+  .navbar__link {
+    font-size: .775rem; }
+  .mainIndex__title {
+    margin-top: 5rem;
+    font-size: 3rem; }
+  .mainIndex__subtitle {
+    font-size: .875rem; }
+  .mainIndex__description {
+    font-size: .75rem; }
+  .mainIndex__description, .container__mainIndexLink {
+    width: 90%; }
+  .mainIndex__link {
+    font-size: .875rem; }
+  /* *pages paquetes */
+  .experience__text {
+    font-size: 3rem; }
+  .experience__link {
+    font-size: .8125rem; }
+  .card {
+    display: none; }
+  /* *pages paquetes */
+  .item4__title {
+    font-size: .875rem; }
+  .item__parrafos {
+    font-size: .5625rem; }
+  .subgrid__link {
+    font-size: .625rem; }
+  .article__title {
+    font-size: 1.3rem; }
+  .article__description {
+    font-size: .875rem; } }
+
+@media (max-width: 425px) {
+  /* index */
+  .mainIndex__title {
+    margin-top: 3rem;
+    font-size: 2.5rem; }
+  .mainIndex__subtitle {
+    font-size: .875rem; }
+  .mainIndex__description {
+    font-size: .625rem;
+    line-height: 1.25rem; }
+  /* *pages paquetes footer*/
+  .footer__title {
+    font-size: 1.5rem; }
+  .footer__subtitle {
+    font-size: .875rem; }
+  /* *pages paquetes */
+  .circuitos__contentText {
+    width: 100%; }
+  .circuitos__grid {
+    width: 100%; }
+  .grid-item4 {
+    height: auto; }
+  .item__subgrid {
+    margin-top: .625rem; }
+  .article__title {
+    font-size: .8125rem; }
+  .article__description {
+    font-size: .575rem; } }
+
+@media (max-width: 375px) {
+  /* index */
+  .mainIndex__title {
+    margin-top: 1rem;
+    font-size: 2rem; }
+  .mainIndex__subtitle {
+    font-size: .675rem; }
+  .mainIndex__description {
+    font-size: .625rem;
+    line-height: 1.25rem; }
+  .mainIndex__link {
+    font-size: .675rem; }
+  /* pages paquetes */
+  .experience__text {
+    font-size: 2rem;
+    padding: .875rem; }
+  .experience__link {
+    font-size: .6875rem;
+    padding: .3125rem 1.875rem;
+    margin-bottom: .125rem; }
+  /* *pages paquetes footer*/
+  .footer__title {
+    font-size: 1rem; }
+  .footer__subtitle {
+    font-size: .575rem; }
+  .footer__containerIcons a img {
+    width: 1rem; } }

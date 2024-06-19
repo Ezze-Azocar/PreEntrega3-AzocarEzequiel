@@ -1,0 +1,72 @@
+@media (max-width:1024px) {
+    /* index */
+    .header__navbar{
+        gap: 1rem;
+    }
+    .mainIndex__title{
+        font-size: 6rem;
+    }
+    .mainIndex__description, .container__mainIndexLink{
+        width: 90%;
+    }
+    /* *pages paquetes */
+    .experience__text{
+        font-size: 4rem;
+    }
+    .card__textPromo{
+        font-size: 3rem;
+    }
+    .card__title{
+        font-size: 1.3rem;
+    }
+    .card__subtitle{
+        font-size: .875rem;
+    }
+    .card__description{
+        font-size: .6875rem;
+        width: 100%;
+    }
+    .card__containeritems{
+        margin-top: 1.25rem;
+    }
+    .card__containerIcons{
+        column-gap: .3125rem;
+    }
+    .card__icons{
+        width: 1.125rem;
+    }
+    .card__availability{
+        column-gap: .125rem;
+    }
+    .card__available{
+        font-size: .7125rem;
+    }
+    .card__priceText{
+        font-size: .6875rem;
+    }
+    .card__price{
+    font-size: .6875rem;
+    }
+    /* *pages circuitos */
+    .circuitos__title{
+        font-size: 1.7rem;
+    }
+    .circuitos__grid{
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+        "item4";
+    }
+    .grid-item1{
+        width: 100%;
+    }
+    .list__item{
+        margin-left: 1rem;
+    }
+    .item__parrafos{
+        font-size: .5625rem;
+    }
+}
