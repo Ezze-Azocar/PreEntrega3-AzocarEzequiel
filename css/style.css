@@ -150,3 +150,125 @@ p {
     .container__mainIndexLink .mainIndex__link:hover {
       background-color: #fffafa;
       color: #ff4500; }
+
+.experience__1 {
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.267)), url(../assets/img/ExperienciaBariloche.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto; }
+
+.experience__2 {
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.267)), url(../assets/img/ExperienciaCataratas.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto; }
+
+.experience__3 {
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.267)), url(../assets/img/ExperienciaNorte.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto; }
+
+.experience__4 {
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.267)), url(../assets/img/ExperienciaPeritoMoreno.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto; }
+
+.experience__flexContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4.25rem 0; }
+
+.experience__containerItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem; }
+  .experience__containerItems .experience__text {
+    color: #fffafa;
+    font-family: "raleway-bold",sans-serif;
+    font-size: 6rem;
+    padding: 1.875rem;
+    text-align: center; }
+  .experience__containerItems .experience__link {
+    text-decoration: none;
+    font-family: "sans-medium",sans-serif;
+    color: #fffafa;
+    margin-bottom: 3.125rem;
+    background-color: #ff4500;
+    padding: .625rem 2.875rem;
+    border-radius: 1.25rem;
+    transition: background-color .3s; }
+    .experience__containerItems .experience__link:hover {
+      background-color: #fffafa;
+      color: #ff4500; }
+
+/* card paquetes */
+.card {
+  background-color: #242424;
+  border-radius: .625rem;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
+  gap: 0.3125rem;
+  text-align: center; }
+  .card__textPromo {
+    color: #ff4500;
+    font-size: 4rem;
+    font-family: "raleway-extrabold", sans-serif; }
+  .card__title {
+    font-family: "raleway-extrabold", sans-serif;
+    color: #fffafa;
+    font-size: 2.5rem; }
+  .card__subtitle {
+    font-family: "raleway-semibold", sans-serif;
+    color: #fffafa; }
+  .card__description {
+    color: #fffafa;
+    font-family: "raleway-regular", sans-serif;
+    width: 80%; }
+  .card__containeritems {
+    width: 100%;
+    margin-top: 1.875rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .card__containerIcons {
+    display: flex;
+    column-gap: 10px; }
+  .card__icons {
+    width: 1.375rem; }
+  .card__availability {
+    display: flex;
+    align-items: center;
+    column-gap: .3125rem; }
+  .card__available {
+    color: #04be04;
+    font-family: "raleway-semibold", sans-serif;
+    font-size: .875rem; }
+  .card__containerPrice {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: none;
+    align-items: center;
+    gap: none;
+    text-align: center; }
+    .card__containerPrice .card__priceText {
+      color: #ff4500;
+      font-family: "raleway-light";
+      font-size: .8125rem; }
+    .card__containerPrice .card__price {
+      color: #fffafa;
+      font-family: "sans-bold";
+      font-size: .8125rem; }

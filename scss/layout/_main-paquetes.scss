@@ -1,0 +1,104 @@
+@include experience-bg('.experience__1', 'ExperienciaBariloche.jpg');
+@include experience-bg('.experience__2', 'ExperienciaCataratas.jpg');
+@include experience-bg('.experience__3', 'ExperienciaNorte.jpg');
+@include experience-bg('.experience__4', 'ExperienciaPeritoMoreno.jpg');
+
+.experience__flexContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4.25rem 0;
+}
+.experience__containerItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    .experience__text{
+        color: $color-text;
+        font-family: "raleway-bold",sans-serif;
+        font-size: 6rem;
+        padding: 1.875rem;
+        text-align: center;
+    }
+    .experience__link{
+        text-decoration: none;
+        font-family: "sans-medium",sans-serif;
+        color: $color-text;
+        margin-bottom: 3.125rem;
+        background-color: $color-details;
+        padding: .625rem 2.875rem;
+        border-radius: 1.25rem;
+        transition: background-color .3s;
+        &:hover{
+            background-color: $color-text;
+            color: $color-details;
+        }
+    }
+}
+/* card paquetes */
+.card{
+    background-color: $color-bg-secondary;
+    border-radius: .625rem;
+    width: 30%;
+    height: auto;
+    @include flex(column,none,none,center,.3125rem);
+    text-align: center;
+    &__textPromo{
+        color: $color-details;
+        font-size: 4rem;
+        font-family: "raleway-extrabold", sans-serif;
+    }
+    &__title{
+        font-family: "raleway-extrabold", sans-serif;
+        color: $color-text;
+        font-size: 2.5rem;
+    }
+    &__subtitle{
+        font-family: "raleway-semibold", sans-serif;
+        color: $color-text;
+    }
+    &__description{
+        color: $color-text;
+        font-family: "raleway-regular", sans-serif;
+        width: 80%;
+    }
+    &__containeritems{
+        width: 100%;
+        margin-top: 1.875rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__containerIcons{
+        display: flex;
+        column-gap: 10px;
+    }
+    &__icons{
+        width: 1.375rem;
+    }
+    &__availability{
+        display: flex;
+        align-items: center;
+        column-gap: .3125rem;
+    }
+    &__available{
+        color: #04be04;
+        font-family: "raleway-semibold", sans-serif;
+        font-size: .875rem;
+    }
+    &__containerPrice{
+        @include flex(column,wrap,none,center,none);
+        text-align: center;
+        .card__priceText{
+            color: $color-details;
+            font-family: "raleway-light";
+            font-size: .8125rem;
+        }
+        .card__price{
+            color: $color-text;
+            font-family: "sans-bold";
+            font-size: .8125rem;
+        }
+    }
+}
