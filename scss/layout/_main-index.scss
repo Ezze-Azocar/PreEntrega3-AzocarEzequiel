@@ -1,0 +1,46 @@
+.mainIndex{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        color: $color-text;
+        font-family: "raleway-black",sans-serif;
+        letter-spacing: .1875rem;
+        font-size: 7rem;
+        margin-left: 1.25rem;
+        margin-top: 10rem;
+    }
+    &__subtitle{
+        color: $color-text;
+        font-family: "sans-medium", sans-serif;
+        margin-left: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    &__description{
+        width: 50%;
+        margin-left: 1.25rem;
+        color: $color-text;
+        font-family: "sans-medium", sans-serif;
+        font-size: .875rem;
+    }
+}
+.container__mainIndexLink{
+    width: 50%;
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    .mainIndex__link{
+        text-decoration: none;
+        font-family: "sans-medium", sans-serif;
+        color: $color-text;
+        background-color: $color-details;
+        border-radius: 1.25rem;
+        padding: .625rem;
+        transition: background-color .3s ease-out;
+        &:hover{
+            background-color: $color-text;
+            color: $color-details;
+        }
+    }
+}
