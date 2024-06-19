@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "sans-bold";
+  src: url(../assets/fonts/DMSans-Bold.ttf); }
+
+@font-face {
+  font-family: "sans-medium";
+  src: url(../assets/fonts/DMSans-Medium.ttf); }
+
+@font-face {
+  font-family: "sans-regular";
+  src: url(../assets/fonts/DMSans-Regular.ttf); }
+
+@font-face {
+  font-family: "raleway-black";
+  src: url(../assets/fonts/Raleway-Black.ttf); }
+
+@font-face {
+  font-family: "raleway-bold";
+  src: url(../assets/fonts/Raleway-Bold.ttf); }
+
+@font-face {
+  font-family: "raleway-extrabold";
+  src: url(../assets/fonts/Raleway-ExtraBold.ttf); }
+
+@font-face {
+  font-family: "raleway-light";
+  src: url(../assets/fonts/Raleway-Light.ttf); }
+
+@font-face {
+  font-family: "raleway-regular";
+  src: url(../assets/fonts/Raleway-Regular.ttf); }
+
+@font-face {
+  font-family: "raleway-semibold";
+  src: url(../assets/fonts/Raleway-SemiBold.ttf); }
+
+@font-face {
+  font-family: "clash-extralight";
+  src: url(../assets/fonts/ClashDisplay-Extralight.otf); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100dvh; }
+
+h1, h2, h3, h4 {
+  text-wrap: balance; }
+
+p {
+  text-wrap: pretty; }
