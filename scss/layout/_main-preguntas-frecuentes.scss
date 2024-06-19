@@ -39,14 +39,14 @@
     background-color: transparent;
     border: none;
     border-bottom: 2px solid $color-details;
-}
-.bg__input::placeholder{
-    color: rgb(206, 205, 205);
-}
-.bg__select{
-    background-color: transparent;
-    color: $color-text;
-}
-.bg__option{
-    background-color: $color-bg-secondary;
+    &::placeholder{
+        color: rgb(206, 205, 205);
+    }
+    &__select{
+        background-color: transparent;
+        color: $color-text;
+    }
+    &__option{
+        background-color: $color-bg-secondary;
+    }
 }

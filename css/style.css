@@ -442,13 +442,10 @@ p {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #ff4500; }
-
-.bg__input::placeholder {
-  color: #cecdcd; }
-
-.bg__select {
-  background-color: transparent;
-  color: #fffafa; }
-
-.bg__option {
-  background-color: #242424; }
+  .bg__input::placeholder {
+    color: #cecdcd; }
+  .bg__input__select {
+    background-color: transparent;
+    color: #fffafa; }
+  .bg__input__option {
+    background-color: #242424; }
