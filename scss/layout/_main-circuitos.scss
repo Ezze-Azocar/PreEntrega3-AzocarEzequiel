@@ -1,0 +1,130 @@
+.sectionBgCircuitos{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../assets/img/castillo-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.circuitos__contentText{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    padding-top: 50px;
+    .circuitos__title{
+        font-size: 2.5rem;
+        color: $color-text;
+        font-family: "raleway-bold",sans-serif;
+    }
+    .img__icon{
+        width: 1.125rem;
+    }
+}
+.circuitos__grid{
+    margin: auto;
+    margin-top: 1.25rem;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "item1 item1 item2"
+    "item3 item4 item4";
+    gap: 10px;
+    
+    .grid-item1, .grid-item2, .grid-item3{
+        background-size: cover;
+        background-position: center;
+        height: 20vh;
+        border-radius: .625rem;
+        position: relative;
+    }
+    .grid-item1{
+        grid-area: item1;
+        background-image: url(../assets/img/image1.jpg);
+    }
+    .grid-item2{
+        grid-area: item2;
+        background-image: url(../assets/img/experiencia-increible.jpg);
+    }
+    .grid-item3{
+        grid-area: item3;
+        background-image: url(../assets/img/mini&micky.jpg);        
+    }
+    .grid-item-text{
+        position: absolute;
+        bottom: 0;
+        color: $color-text;
+        background-color: #171717a6;
+        border-radius: .3125rem;
+        font-family: "sans-medium",sans-serif;
+        font-size: .6875rem;
+    }
+
+    .grid-item4{
+        grid-area: item4;
+        background-color: #24242480;
+        border: 1px solid $color-details;
+        height: 20vh;
+        border-radius: .625rem;
+        .item4__title{
+            color: $color-text;
+            font-family: "sans-bold",sans-serif;
+            font-size: 1.575rem;
+            display: flex;
+            justify-content: center;
+        }
+        .item__subgrid{
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            grid-template-rows: repeat(3,50%);
+            margin-top: 1.25rem;
+            width: auto;
+            align-items: center;
+        }
+        .list__item{
+            display: flex;
+            align-items: center;
+            margin-left: 3.125rem;
+        }
+        .item__parrafos{
+            color: $color-text;
+            font-size: .7125rem;
+            font-family: "sans-regular",sans-serif;
+            text-align: center;
+        }
+        .check-list{
+            width: 1.125rem;
+        }
+        .subgrid__link{
+            text-align: center;
+            text-decoration: none;
+            font-size: .8125rem;
+            color: $color-text;
+            font-family: "sans-regular",sans-serif;
+            transition: all .3s;
+            &:hover{
+                text-decoration: underline;
+                color: $color-details;
+            }
+        }
+    }
+
+}
+.article{
+    margin-top: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+    &__title{
+        color: $color-text;
+        font-family: "raleway-bold",sans-serif;
+        font-size: 2rem;
+    }
+    &__description{
+        color: $color-text;
+        font-family: "raleway-regular",sans-serif;
+        text-align: center;
+        width: 50%;
+    }
+}
