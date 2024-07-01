@@ -40,8 +40,18 @@
     }
     /* *pages paquetes */
 
+    .circuitos__contentText{
+        width: 100%;
+    }
+    .circuitos__grid{
+        width: 100%;
+    }
+
     .item4__title{
         font-size: .875rem;
+    }
+    .item__subgrid{
+        margin-top: 0;
     }
     .item__parrafos{
         font-size: .5625rem;

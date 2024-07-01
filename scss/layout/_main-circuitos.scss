@@ -40,15 +40,19 @@
     .grid-item1{
         grid-area: item1;
         background-image: url(../assets/img/image1.jpg);
+        width: 100%;
     }
     .grid-item2{
         grid-area: item2;
         background-image: url(../assets/img/experiencia-increible.jpg);
+        width: 100%;
+
     }
     .grid-item3{
         grid-area: item3;
-        background-image: url(../assets/img/mini&micky.jpg);        
-    }
+        background-image: url(../assets/img/mini&micky.jpg);       
+        width: 100%;
+     }
     .grid-item-text{
         position: absolute;
         bottom: 0;
@@ -68,7 +72,6 @@
         .item4__title{
             color: $color-text;
             font-family: "sans-bold",sans-serif;
-            font-size: 1.575rem;
             display: flex;
             justify-content: center;
         }

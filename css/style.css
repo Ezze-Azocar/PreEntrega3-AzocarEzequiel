@@ -336,13 +336,16 @@ p {
     position: relative; }
   .circuitos__grid .grid-item1 {
     grid-area: item1;
-    background-image: url(../assets/img/image1.jpg); }
+    background-image: url(../assets/img/image1.jpg);
+    width: 100%; }
   .circuitos__grid .grid-item2 {
     grid-area: item2;
-    background-image: url(../assets/img/experiencia-increible.jpg); }
+    background-image: url(../assets/img/experiencia-increible.jpg);
+    width: 100%; }
   .circuitos__grid .grid-item3 {
     grid-area: item3;
-    background-image: url(../assets/img/mini&micky.jpg); }
+    background-image: url(../assets/img/mini&micky.jpg);
+    width: 100%; }
   .circuitos__grid .grid-item-text {
     position: absolute;
     bottom: 0;
@@ -360,7 +363,6 @@ p {
     .circuitos__grid .grid-item4 .item4__title {
       color: #fffafa;
       font-family: "sans-bold",sans-serif;
-      font-size: 1.575rem;
       display: flex;
       justify-content: center; }
     .circuitos__grid .grid-item4 .item__subgrid {
@@ -615,8 +617,14 @@ p {
   .card {
     display: none; }
   /* *pages paquetes */
+  .circuitos__contentText {
+    width: 100%; }
+  .circuitos__grid {
+    width: 100%; }
   .item4__title {
     font-size: .875rem; }
+  .item__subgrid {
+    margin-top: 0; }
   .item__parrafos {
     font-size: .5625rem; }
   .subgrid__link {
@@ -641,7 +649,7 @@ p {
     font-size: 1.5rem; }
   .footer__subtitle {
     font-size: .875rem; }
-  /* *pages paquetes */
+  /* *pages circuitos */
   .circuitos__contentText {
     width: 100%; }
   .circuitos__grid {
@@ -649,7 +657,7 @@ p {
   .grid-item4 {
     height: auto; }
   .item__subgrid {
-    margin-top: .625rem; }
+    margin-top: 0; }
   .article__title {
     font-size: .8125rem; }
   .article__description {
