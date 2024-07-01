@@ -189,13 +189,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem; }
-  .experience__containerItems .experience__text {
-    color: #fffafa;
-    font-family: "raleway-bold",sans-serif;
-    font-size: 6rem;
-    padding: 1.875rem;
-    text-align: center; }
+  gap: 1.25rem;
+  /*.experience--text{
+        color: $color-text;
+        font-family: "raleway-bold",sans-serif;
+        font-size: 96px;
+        padding: 1.875rem;
+        text-align: center;
+    } /**/ }
   .experience__containerItems .experience__link {
     text-decoration: none;
     font-family: "sans-medium",sans-serif;
@@ -208,6 +209,13 @@ p {
     .experience__containerItems .experience__link:hover {
       background-color: #fffafa;
       color: #ff4500; }
+
+.experience--text {
+  color: #fffafa;
+  font-family: "raleway-bold",sans-serif;
+  font-size: 96px;
+  padding: 1.875rem;
+  text-align: center; }
 
 /* card paquetes */
 .card {
@@ -505,7 +513,7 @@ p {
   .mainIndex__title {
     font-size: 6.5rem; }
   /* *pages paquetes */
-  .experience__text {
+  .experience--text {
     font-size: 5rem; }
   .card__title {
     font-size: 2.1rem; }
@@ -538,7 +546,7 @@ p {
   .mainIndex__description, .container__mainIndexLink {
     width: 90%; }
   /* *pages paquetes */
-  .experience__text {
+  .experience--text {
     font-size: 4rem; }
   .card__textPromo {
     font-size: 3rem; }
@@ -600,7 +608,7 @@ p {
   .mainIndex__link {
     font-size: .875rem; }
   /* *pages paquetes */
-  .experience__text {
+  .experience--text {
     font-size: 3rem; }
   .experience__link {
     font-size: .8125rem; }
@@ -660,7 +668,7 @@ p {
   .mainIndex__link {
     font-size: .675rem; }
   /* pages paquetes */
-  .experience__text {
+  .experience--text {
     font-size: 2rem;
     padding: .875rem; }
   .experience__link {

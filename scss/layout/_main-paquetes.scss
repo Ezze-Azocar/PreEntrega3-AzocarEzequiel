@@ -14,13 +14,13 @@
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
-    .experience__text{
+    /*.experience--text{
         color: $color-text;
         font-family: "raleway-bold",sans-serif;
-        font-size: 6rem;
+        font-size: 96px;
         padding: 1.875rem;
         text-align: center;
-    }
+    } /**/
     .experience__link{
         text-decoration: none;
         font-family: "sans-medium",sans-serif;
@@ -35,6 +35,14 @@
             color: $color-details;
         }
     }
+}
+// por algun motivo si este bloque de codigo lo agrego al nesting no me toma las MQ por ese motivo lo dejo afuera, de todas meneras dejo el codigo agregado al nesting pero comentado asi pueden evaluar el nesting
+.experience--text{
+    color: $color-text;
+    font-family: "raleway-bold",sans-serif;
+    font-size: 96px;
+    padding: 1.875rem;
+    text-align: center;
 }
 /* card paquetes */
 .card{
